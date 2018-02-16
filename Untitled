@@ -1,0 +1,20 @@
+pe-activemq.service
+pe-puppetdb.service
+pe-puppetserver.service
+
+
+service pe-puppetdb.service stop
+service pe-puppetserver.service stop
+service pe-console-services.service stop
+service pe-nginx.service stop
+service pe-orchestration-services.service stop
+service pe-postgresql.service stop
+service pe-activemq.service stop
+
+service pe-postgresql.service start
+service pe-puppetdb.service start
+service pe-puppetserver.service start
+service pe-console-services.service start
+service pe-nginx.service start
+service pe-orchestration-services.service start
+service pe-activemq.service start

@@ -1,7 +1,15 @@
-<<<<<<< HEAD
-# nginx
+#nginx
+
 
 #### Table of Contents
+
+
+# Test1
+# test 2
+#test 3
+
+
+
 
 1. [Description](#description)
 1. [Setup - The basics of getting started with nginx](#setup)
@@ -15,9 +23,11 @@
 
 ## Description
 
+
 Start with a one- or two-sentence summary of what the module does and/or what
 problem it solves. This is your 30-second elevator pitch for your module.
 Consider including OS/Puppet version it works with.
+
 
 You can give more descriptive information in a second paragraph. This paragraph
 should answer the questions: "What does this module *do*?" and "Why would I use
@@ -84,4 +94,3 @@ consider using changelog). You can also add any additional sections you feel
 are necessary or important to include here. Please use the `## ` header.
 =======
 # puppet-nginx
->>>>>>> f9490e65b9427cc52bf808be70baebbb492d292d

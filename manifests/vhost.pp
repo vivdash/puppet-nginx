@@ -12,7 +12,7 @@ define nginx::vhost(
 
 ){ file { "${vhost_dir}/${priority}-${name.conf}":
     ensure => file,
-    content => template("${module_name}/template/vhost/vhost.conf.erb"),
+    content => template("${module_name}/vhost/vhost.conf.erb"),
     mode => $mode,
     owner => $owner,
     group => $group,

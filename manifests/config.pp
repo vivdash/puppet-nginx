@@ -18,7 +18,7 @@ class nginx::config(
     mode => $mode,
     owner => $owner,
     group => $config_group,
-    content => template("${module_name}/template/conf.d/nginx.conf.erb"),
+    content => template("${module_name}/conf.d/nginx.conf.erb"),
   }
 
   file { $log_dir:
