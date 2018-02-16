@@ -1,0 +1,7 @@
+server{
+  listen <%= @port%>;
+  root <%= @vhost_docroot%>;
+  server_name <%= @name%><%= @serveralias%>;
+  access_log <%= @log_dir%>/access.log;
+  error_log <%= @log_dir%>/error.log;
+}
