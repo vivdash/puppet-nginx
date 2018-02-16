@@ -1,0 +1,15 @@
+{
+  "name": "vivek-nginx",
+  "version": "0.1.0",
+  "author": "vivek",
+  "summary": "Nginx test module for puppet",
+  "license": "Apache-2.0",
+  "source": "https://github.com/vivdash/puppet-nginx.git",
+  "project_page": "https://github.com/vivdash/puppet-nginx.git",
+  "issues_url": "https://github.com/vivdash/puppet-nginx.git",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
