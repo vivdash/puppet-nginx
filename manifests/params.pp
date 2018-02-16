@@ -1,4 +1,4 @@
-class nginx::params { 
+class nginx::params {
   $ensure = 'present'
   $package_name = 'nginx'
   $config_dir = '/etc/nginx'
@@ -12,11 +12,12 @@ class nginx::params {
     'Debian' => $config_dir,
     default => undef,
   }
+  $log_dir = '/var/log/nginx/'
 
   $config_process_user = $facts['os']['family'] ? {
     'Debian' => 'www-data',
     default => 'nginx',
-  }    
+  }
 
   $vhost_dir = $facts['os']['family'] ? {
     'Debian' => "${config_dir}/sites-enabled",
@@ -32,4 +33,3 @@ class nginx::params {
 
   $docroot = '/usr/start/nginx'
 }
-

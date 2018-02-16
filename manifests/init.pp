@@ -8,6 +8,7 @@ class nginx(
   String $config_group = $::nginx::params::config_group,
   String $config_confd = $::nginx::params::config_confd,
   String $config_pid_file = $::nginx::params::config_pid_file,
+  String $log_dir = $::nginx::params::log_dir,
   Optional[String] $config_vdir_enable = $::nginx::params::config_vdir_enable,
   String $config_process_user = $::nginx::params::config_process_user,
   String $vhost_dir = $::nginx::params::vhost_dir,
