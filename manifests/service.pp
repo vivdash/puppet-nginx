@@ -12,7 +12,6 @@ class nginx::service(
     enable => $enable,
     hasstatus => $hasstatus,
     hasrestart => $hasrestart,
-    pattern => $pattern,  
-  
+    pattern => $pattern,
   }
 }
