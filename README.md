@@ -12,9 +12,6 @@
 
 
 
-
-
-
 1. [Description](#description)
 1. [Setup - The basics of getting started with nginx](#setup)
     * [What nginx affects](#what-nginx-affects)
